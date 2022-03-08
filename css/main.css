@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto:ital,wght@1,400;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-size: 16px;
+  font-family: Roboto, italic;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app-container {
+  margin: 0 auto;
+  max-width: 1024px;
+  height: 100vh;
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../img/Clear.jpg");
+  background-size: cover;
+  background-color: lightgrey;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 5px rgba(7, 7, 7, 0.8);
+          box-shadow: 5px 5px 5px rgba(7, 7, 7, 0.8);
+}
+
+.app-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  color: white;
+  margin-top: 5rem;
+}
+
+.header .date-location {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.header .temperature-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.header .temperature-icon .temperature {
+  font-size: 3rem;
+}
+
+.header .temperature-icon .big-weather-icon {
+  margin-left: 1rem;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.search-info-box {
+  position: absolute;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  width: 40%;
+  height: 768px;
+  color: white;
+}
+
+.search-info-box .search-input {
+  margin-top: 10rem;
+  margin-left: 1rem;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.search-info-box .search-input .search-input-value {
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 300px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.search-info-box .search-input .search-button {
+  width: 35px;
+  height: 35px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.search-info-box .weather-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.search-info-box .weather-data .temp-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.search-info-box .weather-data .other-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.search-info-box .forecast-weather-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 5rem;
+}
+
+.search-info-box .forecast-weather-data .day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.search-info-box .forecast-weather-data .day .forecast-temp {
+  font-size: 1.5rem;
+}
+
+.search-info-box .forecast-weather-data .day .forecast-icon {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+/*# sourceMappingURL=main.css.map */
